@@ -15,7 +15,7 @@ pipeline {
             steps {
                sh 'echo tesing the application '
                sh 'echo mesting tesing the application '
-               sh 'docker run ubuntu ifconfig'
+               sh 'docker run nginx-alpine ifconfig'
             
 
             }    
