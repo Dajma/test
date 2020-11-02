@@ -14,6 +14,8 @@ pipeline {
 
             steps {
                sh 'echo tesing the application '
+               sh 'echo mesting tesing the application '
+
             }    
         }
 
