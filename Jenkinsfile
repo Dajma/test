@@ -6,7 +6,9 @@ pipeline {
         stage("build") {
 
             steps {
-                sh 'echo building the application '
+                sh 'pwd '
+                sh 'ls -la '
+
             }
         }
 
